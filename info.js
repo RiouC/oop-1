@@ -5,7 +5,7 @@ const alice = {
     language: ['APL', 'J', 'Shakti K', 'R', 'python', 'Julia', 'haskell', 'OCaml', 'erlang', 'Common Lisp', 'Scheme', 'microKanren', 'Shen', 'Prolog', 'Raku', 'Eiffel', 'SmallTalk', 'Pharo', 'coq', 'Emacs Lisp', 'Elm', 'PureScript', 'Factor']
 }
 
-const bob = {    
+const bob = {
     firstName: 'Bob',
     lastName: 'Lemon',
     age: 30,
