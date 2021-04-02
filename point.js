@@ -11,9 +11,7 @@ class Point {
 	return this.x === point.x && this.y === point.y ? true : false
     }
     distance(pt) {
-	const sqAbscissa = Math.pow(this.x - pt.x, 2);
-	const sqOrdinate = Math.pow(this.y - pt.y, 2);
-	return Math.sqrt(sqAbscissa + sqOrdinate);
+	return Math.hypot(this.x - pt.x , this.y - pt.y);
     }
 }
 
